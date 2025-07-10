@@ -18,4 +18,7 @@ public class AppUser {
 
     @Transient
     private String newPole;
+
+    @Transient
+    private String newPole2;
 }
