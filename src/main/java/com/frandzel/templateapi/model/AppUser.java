@@ -15,4 +15,10 @@ public class AppUser {
 
     @Column(nullable = false)
     private String password;
+
+    @Transient
+    private String newPole;
+
+    @Transient
+    private String newPole2;
 }
