@@ -15,4 +15,7 @@ public class AppUser {
 
     @Column(nullable = false)
     private String password;
+
+    @Transient
+    private String newPole;
 }
